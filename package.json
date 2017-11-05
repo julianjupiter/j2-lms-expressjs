@@ -1,0 +1,22 @@
+{
+  "name": "j2-lms-expressjs",
+  "version": "1.0.0",
+  "description": "Library Management System written in NodeJS/ExpressJS.",
+  "main": "add.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "development"
+  ],
+  "author": "Julian Jupiter",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.17.2",
+    "moment": "^2.19.1",
+    "twig": "^1.10.5"
+  }
+}

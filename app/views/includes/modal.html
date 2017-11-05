@@ -1,0 +1,43 @@
+<!-- Modal -->
+<div class="modal fade" id="book-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button -->
+<button id="close-modal" type="button" class="btn btn-secondary" data-dismiss="modal" style="display:none;">Close</button>
+<button id="submit-modal" type="submit" class="btn btn-primary" style="display:none;">Submit</button>
+
+<!-- Add Book Form -->
+<form id="add-book-form" style="display:none;">
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" id="title" placeholder="Enter title">
+  </div>
+  <div class="form-group">
+    <label for="description">Description</label>
+    <textarea class="form-control" id="description" rows="3" placeholder="Enter description"></textarea>
+  </div>
+</form>
+
+<!-- View Book -->
+<table id="view-book-modal-table" class="table table-sm table-border-less" style="display:none;">
+  <tbody>
+    <tr><th class="text-right" scope="row">ID:<th><td id="book-id"></td></tr>
+    <tr><th class="text-right" scope="row">Title:<th><td id="book-title"></td></tr>
+    <tr><th class="text-right" scope="row">Description:<th><td id="book-description"></td></tr>
+    <tr><th class="text-right" scope="row">Created At:<th><td id="book-created-at"></td></tr>
+  </tbody>
+</table>
